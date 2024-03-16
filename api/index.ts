@@ -5,10 +5,10 @@ const server = Bun.serve({
     const path = new URL(req.url).pathname;
 
     // respond with text/html
-    if (path === "/") return new Response("Welcome to Bun!");
+    if (path === "/") return new Response("Hello, World!");
 
     // redirect
-    if (path === "/abc") return Response.redirect("/source", 301);
+    if (path === "/redirect") return Response.redirect("/source", 301);
 
     // send back a file (in this case, *this* file)
     if (path === "/source") {
