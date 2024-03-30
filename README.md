@@ -1,3 +1,0 @@
-# awells
-
-> a simple place
