@@ -36,3 +36,9 @@ Cool, that got us started with a basic repo structure, a neat package.json, TS s
 ## HTTP server
 
 Okay, let's start with a simple HTTP server.
+
+Bun does the heavy lifting here, and while writing a server is fun, it's not a goal for this project. So we'll start with just what we've got out of the box with Bun and if we need to implement anything custom, we'll take it from there.
+
+A simple HTTP server out of their docs is ez pz. Copying that and a little `bun run api/index.ts` and we're off with some hello world endpoints!
+
+## File-based routing
