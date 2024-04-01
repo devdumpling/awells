@@ -4,8 +4,8 @@ export function Nav() {
   return (
     <nav>
       <div className="p-4 md:p-6">
-        <Link className="font-mono font-semibold" href="/">
-          /dev.wells
+        <Link className="font-semibold" href="/">
+          /wells/dev
         </Link>
         <nav className="flex gap-4 text-sm font-medium">
           <Link href="/blog">/blg</Link>
